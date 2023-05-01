@@ -235,6 +235,26 @@
    gap: 2em;
  }
 
+
+ @media screen and (max-width: 768px){
+
+  .card{
+    width: 230px;
+    height: 45vh;
+  }
+
+
+  .contentss .title{
+    font-size: 25px;
+    font-weight: 600;
+  }
+
+
+ }
+
+
+
+
  /* Skilss css */
 
 
@@ -307,6 +327,26 @@
    border: none;
    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.4);
  }
+
+
+ @media screen and (max-width: 768px){
+  .skls-card{
+
+    width: 220px;
+    height: 40vh;
+     
+  }
+
+  .skls-card2{
+
+    width: 220px;
+    height: 40vh;
+
+  }
+
+
+ }
+ 
 
 
  /* Contact css */
