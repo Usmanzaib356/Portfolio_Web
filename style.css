@@ -235,12 +235,31 @@
    gap: 2em;
  }
 
+/* Mobile Screen */
 
- @media screen and (max-width: 768px){
+ @media screen and (max-width: 1000px) and (max-width: 1000px) {
 
   .card{
     width: 230px;
-    height: 45vh;
+    height: 300px;
+  }
+
+
+  .contentss .title{
+    font-size: 25px;
+    font-weight: 600;
+  }
+
+
+ }
+
+ /* Ipads Screen */
+
+ @media screen and (max-width: 1300px) and (max-width: 1300px) {
+
+  .card{
+    width: 230px;
+    height: 300px;
   }
 
 
@@ -256,7 +275,6 @@
 
 
  /* Skilss css */
-
 
  .skls-card {
    width: 220px;
@@ -329,24 +347,47 @@
  }
 
 
- @media screen and (max-width: 768px){
+ /* Mobiles Screen */
+
+ @media screen and (max-width: 1000px) and (max-height: 1000px) {
   .skls-card{
 
     width: 220px;
-    height: 45vh;
+    height: 300px;
      
   }
 
   .skls-card2{
 
     width: 220px;
-    height: 45vh;
+    height: 300px;
 
   }
 
 
  }
  
+
+
+/* Ipads Screen */
+
+@media screen and (max-width: 1300px) and (max-height: 1300px) {
+  .skls-card{
+
+    width: 220px;
+    height: 300px;
+     
+  }
+
+  .skls-card2{
+
+    width: 220px;
+    height: 300px;
+
+  }
+
+
+ }
 
 
  /* Contact css */
