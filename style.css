@@ -1,0 +1,416 @@
+ /* navbar fonts*/
+ @import url('https://fonts.googleapis.com/css2?family=Tilt+Warp&display=swap');
+ /* hero fonts */
+ @import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap');
+ /* HOme font */
+ @import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Merriweather&display=swap');
+
+ /* Body css start */
+
+ body {
+   background-color: black;
+
+ }
+
+ /* Body css end */
+
+
+
+ /* navbabr css start */
+
+ #navbarSupportedContent a {
+   color: gray;
+   font-size: 18px;
+   font-weight: 600;
+
+ }
+
+ #navbarSupportedContent a:hover {
+   color: white;
+ }
+
+ .navbar-nav .nav-link {
+   position: relative;
+   /* Add relative positioning to the nav-link element */
+ }
+
+ .navbar-nav .nav-link:after {
+   content: "";
+   position: absolute;
+   /* Add absolute positioning to the line element */
+   left: 0;
+   bottom: 0;
+   height: 2px;
+   /* Set the height of the line element */
+   width: 100%;
+   /* Set the width of the line element to 100% */
+   background-color: #ccc;
+   /* Set the color of the line element */
+   visibility: hidden;
+   /* Hide the line element by default */
+   transition: all 0.3s ease-in-out;
+   /* Add transition for smooth animation */
+ }
+
+ .navbar-nav .nav-link:hover:after {
+   visibility: visible;
+   /* Show the line element on hover */
+   background-color: white;
+   /* Change the color of the line element on hover */
+ }
+
+ #usman {
+   font-size: 18px;
+   font-family: 'Tilt Warp', "cursive";
+   color: #FCFFE7;
+   text-transform: uppercase;
+   /* 00a3ff 3cff8b 35f787 */
+   background: linear-gradient(135deg, #35f787, #00a3ff 49%, #00a3ff);
+   ;
+   padding: 7px;
+   border-radius: 5px;
+ }
+
+ /* navbabr css  end */
+
+
+ /* home page css */
+
+ .home {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+   height: 100vh;
+   color: white;
+ }
+
+ .text {
+   flex: 1;
+   padding: 25px 25px;
+   font-family: 'Lato', sans-serif;
+   font-family: 'Merriweather', serif;
+   color: #FDF4F5;
+ }
+
+ .image {
+   flex: 1;
+ }
+
+
+ .text h1 {
+   font-size: 30px;
+ }
+
+ .text p {
+   font-size: 0.8em;
+ }
+
+ img {
+   width: 50%;
+   height: fit-content;
+   border-radius: 10px;
+   border: 1px solid #00ff75;
+ }
+
+
+ @media screen and (max-width: 768px) {
+   .home {
+     flex-direction: column;
+   }
+
+   .text,
+   .image {
+     flex: none;
+     width: 100%;
+   }
+
+   .text {
+     padding: 10px;
+   }
+ }
+
+ .line {
+   border: 5px solid gray;
+ }
+
+
+ /* Portfolio  css */
+
+ .port-text {
+   color: white;
+   text-align: center;
+   font-size: 2em;
+   font-weight: 500;
+   font-family: 'Lato', sans-serif;
+   font-family: 'Merriweather', serif;
+   color: #FDF4F5;
+ }
+
+
+ .card {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: space-around;
+   width: 230px;
+   height: 55vh;
+   padding: 20px 1px;
+   margin: 10px 0;
+   text-align: center;
+   position: relative;
+   cursor: pointer;
+   box-shadow: 0 10px 15px -3px rgba(33, 150, 243, .4), 0 4px 6px -4px rgba(33, 150, 243, .4);
+   border-radius: 10px;
+   background-color: #6B6ECC;
+   background: linear-gradient(45deg, #04051dea 0%, black 100%);
+ }
+
+ .contentss {
+   padding: 20px;
+ }
+
+ .contentss .description {
+   color: rgba(255, 255, 255, 0.6);
+   margin-top: 10px;
+   font-size: 18px;
+ }
+
+ .contentss .title {
+   font-weight: 700;
+   text-transform: uppercase;
+   color: rgba(255, 255, 255, 0.64);
+   margin-top: 10px;
+   font-size: 27px;
+   letter-spacing: 1px;
+ }
+
+ .btnn {
+   border: none;
+   color: #fff;
+   background-image: linear-gradient(30deg, #0400ff, #4ce3f7);
+   border-radius: 20px;
+   background-size: 100% auto;
+   font-family: inherit;
+   font-size: 17px;
+   padding: 0.6em 1.5em;
+ }
+
+ .btnn:hover {
+   background-position: right center;
+   background-size: 200% auto;
+   -webkit-animation: pulse 2s infinite;
+   animation: pulse512 1.5s infinite;
+ }
+
+ @keyframes pulse512 {
+   0% {
+     box-shadow: 0 0 0 0 #05bada66;
+   }
+
+   70% {
+     box-shadow: 0 0 0 10px rgb(218 103 68 / 0%);
+   }
+
+   100% {
+     box-shadow: 0 0 0 0 rgb(218 103 68 / 0%);
+   }
+ }
+
+ .btnn a {
+   color: white;
+   text-decoration: none;
+ }
+
+ .port {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   gap: 2em;
+ }
+
+ /* Skilss css */
+
+
+ .skls-card {
+   width: 220px;
+   height: 50vh;
+   background-image: linear-gradient(163deg, #00ff75 0%, #3700ff 100%);
+   border-radius: 20px;
+   transition: all .3s;
+ }
+
+ .skls-card2 {
+   width: 220px;
+   height: 50vh;
+   background-color: #1a1a1a;
+   transition: all .2s;
+   border-radius: 20px;
+   text-align: center;
+   transform: scale(0.98);
+ }
+
+ .skls-card2:hover {
+   transform: scale(0.98);
+   border-radius: 20px;
+ }
+
+ .skls-card:hover {
+   box-shadow: 0px 0px 30px 1px rgba(0, 255, 117, 0.30);
+
+ }
+
+
+ .skls {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   gap: 5em;
+
+ }
+
+ .skls-text {
+   text-align: center;
+   font-size: 2em;
+   font-weight: 500;
+   font-family: 'Lato', sans-serif;
+   font-family: 'Merriweather', serif;
+   color: #FDF4F5;
+ }
+
+
+ .skls-card2 h2 {
+   font-family: 'Lato', sans-serif;
+   font-family: 'Merriweather', serif;
+   color: #FDF4F5;
+   font-size: 1.5em;
+ }
+
+ .skls-card2 p {
+   font-family: 'Lato', sans-serif;
+   font-family: 'Merriweather', serif;
+   color: #FDF4F5;
+   font-size: 1em;
+ }
+
+
+ .logo img {
+   height: 5em;
+   width: 6em;
+   margin: 12px;
+   border: none;
+   box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.4);
+ }
+
+
+ /* Contact css */
+
+ .cnt-text {
+   text-align: center;
+   font-family: 'Lato', sans-serif;
+   font-family: 'Merriweather', serif;
+   color: #FDF4F5;
+
+ }
+
+ .cnt-text p {
+
+   text-align: center;
+   font-size: 14px;
+   font-weight: 300;
+   font-family: 'Lato', sans-serif;
+   font-family: 'Merriweather', serif;
+   color: #FDF4F5;
+
+ }
+
+ .cnt-text h1 {
+   font-size: 2em;
+ }
+
+
+
+ .social-buttons {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background-color: black;
+   box-shadow: 0px 0px 15px #00000027;
+   padding: 15px 10px;
+   border-radius: 5em;
+
+ }
+
+ .social-button {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 50px;
+   height: 50px;
+   border-radius: 50%;
+   margin: 0 10px;
+   background-color: #fff;
+   box-shadow: 0px 0px 4px #00000027;
+   transition: 0.3s;
+ }
+
+ .social-button:hover {
+   background-color: #f2f2f2;
+   box-shadow: 0px 0px 6px 3px #00000027;
+ }
+
+ .social-buttons svg {
+   transition: 0.3s;
+   height: 20px;
+ }
+
+ .facebook {
+   background-color: #3b5998;
+ }
+
+ .facebook svg {
+   fill: #f2f2f2;
+ }
+
+ .facebook:hover svg {
+   fill: #3b5998;
+ }
+
+ .github {
+   background-color: #333;
+ }
+
+ .github svg {
+   width: 25px;
+   height: 25px;
+   fill: #f2f2f2;
+ }
+
+ .github:hover svg {
+   fill: #333;
+ }
+
+ .linkedin {
+   background-color: #0077b5;
+ }
+
+ .linkedin svg {
+   fill: #f2f2f2;
+ }
+
+ .linkedin:hover svg {
+   fill: #0077b5;
+ }
+
+ .instagram {
+   background-color: #c13584;
+ }
+
+ .instagram svg {
+   fill: #f2f2f2;
+ }
+
+ .instagram:hover svg {
+   fill: #c13584;
+ }
