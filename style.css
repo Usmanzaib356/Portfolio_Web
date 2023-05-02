@@ -123,12 +123,12 @@
    .text,
    .image {
      flex: none;
-     width: 100%; 
+     width: 100%;
    }
 
-   .image img{
-    height: 60vh;
-    width: 45vh;
+   .image img {
+     height: 60vh;
+     width: 45vh;
    }
 
    .text {
@@ -235,20 +235,20 @@
    gap: 2em;
  }
 
-/* Mobile Screen */
+ /* Mobile Screen */
 
  @media screen and (max-width: 1000px) and (max-width: 1000px) {
 
-  .card{
-    width: 230px;
-    height: 300px;
-  }
+   .card {
+     width: 230px;
+     height: 300px;
+   }
 
 
-  .contentss .title{
-    font-size: 25px;
-    font-weight: 600;
-  }
+   .contentss .title {
+     font-size: 25px;
+     font-weight: 600;
+   }
 
 
  }
@@ -257,16 +257,16 @@
 
  @media screen and (max-width: 1300px) and (max-width: 1300px) {
 
-  .card{
-    width: 230px;
-    height: 300px;
-  }
+   .card {
+     width: 230px;
+     height: 300px;
+   }
 
 
-  .contentss .title{
-    font-size: 25px;
-    font-weight: 600;
-  }
+   .contentss .title {
+     font-size: 25px;
+     font-weight: 600;
+   }
 
 
  }
@@ -350,41 +350,41 @@
  /* Mobiles Screen */
 
  @media screen and (max-width: 1000px) and (max-height: 1000px) {
-  .skls-card{
+   .skls-card {
 
-    width: 220px;
-    height: 300px;
-     
-  }
+     width: 220px;
+     height: 300px;
 
-  .skls-card2{
+   }
 
-    width: 220px;
-    height: 300px;
+   .skls-card2 {
 
-  }
+     width: 220px;
+     height: 300px;
+
+   }
 
 
  }
- 
 
 
-/* Ipads Screen */
 
-@media screen and (max-width: 1300px) and (max-height: 1300px) {
-  .skls-card{
+ /* Ipads Screen */
 
-    width: 220px;
-    height: 300px;
-     
-  }
+ @media screen and (max-width: 1300px) and (max-height: 1300px) {
+   .skls-card {
 
-  .skls-card2{
+     width: 220px;
+     height: 300px;
 
-    width: 220px;
-    height: 300px;
+   }
 
-  }
+   .skls-card2 {
+
+     width: 220px;
+     height: 300px;
+
+   }
 
 
  }
